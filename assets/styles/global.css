@@ -1,0 +1,272 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-transform: none;
+    text-decoration: none;
+    font-family: sans-serif
+}
+
+span {
+    color: rgb(147, 204, 253);
+    font-weight: bolder;
+}
+
+.push {
+    height: 80px;
+}
+
+.menu-top {
+    border-bottom: 1px solid rgb(174, 172, 172);
+    color: rgb(87, 87, 87);
+    font-size: 20px;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 80px;
+}
+
+.containner {
+    max-width:1024px;
+    margin: auto;
+}
+
+.box-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+}
+
+.links-top a {
+    margin: 0 5px;
+    color: rgb(87, 87, 87);
+    font-size: 18px;
+}
+
+.banner {
+    background-image: url(../img/img-fundo.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    display: flex;
+    top: 80px;
+}
+
+.msg-banner {
+    background-color: rgba(15, 112, 15, 0.584);
+    text-align: center;
+    width: 600px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+.msg-banner h1 {
+    margin: 20px;
+    font-size: 50px;
+}
+
+.msg-banner p {
+    font-size: 20px;
+}
+
+.msg-boas-vindas {
+    text-align: center;
+    color: #404048;
+}
+
+.msg-boas-vindas h2 {
+   margin: 20px;
+   margin-top: 50px;
+}
+
+.msg-boas-vindas p {
+    margin: 20px;
+    margin-bottom: 50px;
+    line-height: 2em;
+}
+
+.quartos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.quartos a img {
+    width: 300px;
+}
+
+.quartos a p {
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+    border-bottom: 1px solid #000;
+    font-weight: bolder;
+    color: #404048;
+
+}
+
+.msg-rota {
+    text-align: center;
+    color: #404048;
+}
+
+.msg-rota h2 {
+    margin: 20px;
+    margin-top: 50px;
+ }
+
+ .msg-rota p {
+    margin: 20px;
+    margin-bottom: 40px;
+}
+
+iframe {
+    width: 100%;
+}
+
+.sobre {
+    margin: 40px;
+}
+
+.msg-sobre {
+    text-align: center;
+    color: #404048;
+}
+
+.msg-sobre h2 {
+    margin: 20px;
+    margin-top: 50px;
+    font-weight: bolder;
+ }
+
+ .msg-sobre p {
+    margin: 20px;
+    margin-bottom: 40px;
+}
+
+.sobre-box {
+    display: flex;
+    max-width: 40%;
+    min-width: 40%;
+    margin: 10px;
+}
+
+.sobre-box img{
+    width: 110px;
+    height: 120px;
+    margin: 4px;
+}
+
+.containner-sobre {
+    display: flex;
+    justify-content: space-around;
+    color: #404048;
+}
+
+.msg-sobre-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+}
+
+
+footer {
+    background-color: #49997C ;
+    color: #fff;
+}
+
+.menu-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.5px solid rgb(110, 110, 110);
+}
+
+.menu-footer p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+ .ico {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    margin: 20px;
+ }
+
+ .ico p {
+    margin: auto;
+    margin: 15px;
+    font-size: 18px;
+ }
+
+ .copy {
+    text-align: center;
+    padding: 20px;
+ }
+
+ /* ESTILIZAÇÃO PÁGINA QUARTOS */
+
+ .banner-badrooms {
+        background-image: url(../img/img-fundo.jpg);
+        height: 500px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 30vh;
+        display: flex;
+        top: 80px;
+}
+
+.quarto {
+    display: flex;
+    flex-direction: column;
+    color: rgb(87, 87, 87);
+
+}
+
+.msg-quartos {
+    text-align: center;
+    line-height: 2em;
+    margin: 10px;
+    margin-top: 50px;
+}
+
+.box-imgs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-imgs img {
+    margin: 5px;
+    width: 320px;
+}
+
+.info-quartos {
+    text-align: center;
+    margin: 10px;
+    margin-top: 10px;
+}
+
+ul {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+li {
+    margin: 10px 3px;
+   text-align: left;
+   width: 100% / 5px;;
+}
